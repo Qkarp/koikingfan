@@ -1,0 +1,21 @@
+uuid: 13dd5b04-5f51-452d-8954-368df454d1d0
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fangyingri
+    - node.type.anime
+  module:
+    - datetime
+id: node.anime.field_fangyingri
+field_name: field_fangyingri
+entity_type: node
+bundle: anime
+label: 放映日
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

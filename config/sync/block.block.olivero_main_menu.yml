@@ -1,0 +1,31 @@
+uuid: 7b6e3db9-ed8d-4b16-b4db-190b13d70084
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+id: olivero_main_menu
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: メインナビゲーション
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: 'http://localhost/project/recommended-project/web/aboutme'

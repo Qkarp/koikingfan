@@ -1,0 +1,25 @@
+uuid: 5b82d955-31a5-4987-a1a5-f9ea0dae0737
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2099665b-8ae7-4ba9-93b3-c190e9ce612a'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: kasutamufurotsuku
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:2099665b-8ae7-4ba9-93b3-c190e9ce612a'
+settings:
+  id: 'block_content:2099665b-8ae7-4ba9-93b3-c190e9ce612a'
+  label: カスタムブロック
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

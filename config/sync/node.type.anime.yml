@@ -1,0 +1,17 @@
+uuid: 014c17c3-77ce-4194-9326-7eb3c37b009c
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Anime
+type: anime
+description: 'Here you can read about episodes where Magikarp appears.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

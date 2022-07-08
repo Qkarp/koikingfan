@@ -1,0 +1,18 @@
+uuid: b4e59169-5249-40f5-bba2-b9543c94d890
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime
+id: node.anime.title
+field_name: title
+entity_type: node
+bundle: anime
+label: Anime
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
