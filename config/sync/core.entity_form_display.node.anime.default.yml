@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
     - field.field.node.anime.field_fangyingri
+    - field.field.node.anime.field_tag
     - image.style.thumbnail
     - node.type.anime
   module:
@@ -48,6 +49,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_tag:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 2
@@ -89,6 +100,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

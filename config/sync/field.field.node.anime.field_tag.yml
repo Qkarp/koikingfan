@@ -1,0 +1,32 @@
+uuid: 81017f1c-3749-4701-aa33-f652b6d4828b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tag
+    - node.type.anime
+  content:
+    - 'node:anime:9febd135-765a-4d82-8d27-1e162a2a0a0a'
+id: node.anime.field_tag
+field_name: field_tag
+entity_type: node
+bundle: anime
+label: タグ
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 9febd135-765a-4d82-8d27-1e162a2a0a0a
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      anime: anime
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,19 +1,18 @@
-uuid: eb8c7994-68ad-4e79-87c4-1dbc9e43f6ed
+uuid: 8583c667-20b6-4a5c-b6e8-de7ad19f8019
 langcode: ja
 status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_test
-field_name: field_test
+id: node.field_tag
+field_name: field_tag
 entity_type: node
-type: text
+type: entity_reference
 settings:
-  max_length: 255
-module: text
+  target_type: node
+module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

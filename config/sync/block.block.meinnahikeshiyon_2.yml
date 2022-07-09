@@ -1,0 +1,33 @@
+uuid: 89c1a035-f365-4e3a-b577-393e8baca079
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - node
+    - system
+  theme:
+    - bartik
+id: meinnahikeshiyon_2
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: メインナビゲーション
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

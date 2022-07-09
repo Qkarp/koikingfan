@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '6d80c8e99717e8c729fba28fbf40fa38ac33126c',
+        'reference' => 'b5fd20442f3a54f3e8ecf6d4cf83ed11ed2eb41a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -658,7 +658,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '6d80c8e99717e8c729fba28fbf40fa38ac33126c',
+            'reference' => 'b5fd20442f3a54f3e8ecf6d4cf83ed11ed2eb41a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -741,6 +741,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/tara' => array(
+            'pretty_version' => '8.3.3',
+            'version' => '8.3.3.0',
+            'reference' => '8.3.3',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/tara',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/taxonomy' => array(
             'dev_requirement' => false,

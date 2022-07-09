@@ -1,0 +1,20 @@
+uuid: 031302a6-827e-4f64-993e-d2b4d3515f49
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anime
+  module:
+    - path
+id: node.anime.path
+field_name: path
+entity_type: node
+bundle: anime
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

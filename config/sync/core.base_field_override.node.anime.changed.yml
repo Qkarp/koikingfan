@@ -1,0 +1,18 @@
+uuid: 24e7a7b5-5de8-4bb5-9cc6-dc32b1ed4410
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anime
+id: node.anime.changed
+field_name: changed
+entity_type: node
+bundle: anime
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

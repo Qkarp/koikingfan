@@ -1,0 +1,22 @@
+uuid: e19c0a40-8000-4e03-8912-291f9958ad28
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anime
+id: node.anime.promote
+field_name: promote
+entity_type: node
+bundle: anime
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

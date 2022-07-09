@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
     - field.field.node.anime.field_fangyingri
+    - field.field.node.anime.field_tag
     - node.type.anime
   module:
     - text
@@ -32,4 +33,5 @@ content:
 hidden:
   field_anime_scene: true
   field_fangyingri: true
+  field_tag: true
   langcode: true

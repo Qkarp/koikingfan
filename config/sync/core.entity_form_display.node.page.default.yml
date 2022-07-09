@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_test
+    - field.field.node.page.field_tag
     - node.type.page
   module:
     - path
@@ -32,11 +32,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_test:
-    type: text_textfield
+  field_tag:
+    type: entity_reference_autocomplete
     weight: 121
     region: content
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }

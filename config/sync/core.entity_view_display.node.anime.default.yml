@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
     - field.field.node.anime.field_fangyingri
+    - field.field.node.anime.field_tag
     - node.type.anime
   module:
     - datetime
@@ -43,6 +44,14 @@ content:
       format_type: medium
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_tag:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
     region: content
   links:
     settings: {  }

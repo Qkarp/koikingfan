@@ -11,7 +11,7 @@ id: node.anime.body
 field_name: body
 entity_type: node
 bundle: anime
-label: 'Anime Body'
+label: body
 description: ''
 required: false
 translatable: true

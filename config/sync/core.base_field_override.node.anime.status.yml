@@ -1,0 +1,22 @@
+uuid: 6fcdeb3c-a4a6-4586-897e-9c73ce419282
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anime
+id: node.anime.status
+field_name: status
+entity_type: node
+bundle: anime
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

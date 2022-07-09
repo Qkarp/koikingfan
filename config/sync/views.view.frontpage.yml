@@ -302,6 +302,20 @@ display:
     display_options:
       display_extenders: {  }
       path: node
+      menu:
+        type: 'default tab'
+        title: メニュータイトル
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+      tab_options:
+        type: none
+        title: ''
+        description: ''
+        weight: 0
     cache_metadata:
       max-age: -1
       contexts:

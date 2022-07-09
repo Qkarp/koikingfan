@@ -6,15 +6,22 @@ dependencies:
     - field.storage.node.field_anime_scene
     - node.type.anime
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      title: title
+      file: '0'
+      alt: '0'
 id: node.anime.field_anime_scene
 field_name: field_anime_scene
 entity_type: node
 bundle: anime
-label: 'Anime scene'
+label: image
 description: 著作権にご注意ください
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

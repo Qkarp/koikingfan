@@ -1,0 +1,22 @@
+uuid: 0027ec1b-a652-48e0-b8e2-e7632359d59c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anime
+id: node.anime.sticky
+field_name: sticky
+entity_type: node
+bundle: anime
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
