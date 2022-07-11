@@ -1,0 +1,22 @@
+uuid: 751f61c9-aac0-4398-8ee5-3c60bafcea3e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.ku_tsusu
+id: node.ku_tsusu.status
+field_name: status
+entity_type: node
+bundle: ku_tsusu
+label: 掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

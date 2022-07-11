@@ -1,0 +1,25 @@
+uuid: 179bccbf-d9dd-447a-acb1-c1a8f3e9a5f7
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - tara
+id: yusarokuin
+theme: tara
+region: sidebar_second
+weight: -8
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ログイン
+  label_display: visible
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/top\r\n<front>"

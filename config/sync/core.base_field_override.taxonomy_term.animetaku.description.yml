@@ -1,0 +1,20 @@
+uuid: 666ac4ae-bfc1-4cfa-8e59-015bfb149642
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+  module:
+    - text
+id: taxonomy_term.animetaku.description
+field_name: description
+entity_type: taxonomy_term
+bundle: animetaku
+label: 説明
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

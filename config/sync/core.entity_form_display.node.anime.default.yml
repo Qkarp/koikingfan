@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
+    - field.field.node.anime.field_animekomento
     - field.field.node.anime.field_fangyingri
     - field.field.node.anime.field_tag
     - image.style.thumbnail
     - node.type.anime
   module:
+    - comment
     - datetime
     - image
     - path
@@ -42,6 +44,12 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_animekomento:
+    type: comment_default
+    weight: 127
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_fangyingri:
     type: datetime_default

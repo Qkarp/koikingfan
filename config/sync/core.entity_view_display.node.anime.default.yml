@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
+    - field.field.node.anime.field_animekomento
     - field.field.node.anime.field_fangyingri
     - field.field.node.anime.field_tag
     - node.type.anime
   module:
+    - comment
     - datetime
     - image
     - text
@@ -35,6 +37,15 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_animekomento:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_fangyingri:
     type: datetime_default

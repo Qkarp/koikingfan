@@ -1,0 +1,18 @@
+uuid: 864b7e60-86a6-4c63-bcf6-553a6fc93291
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+id: taxonomy_term.animetaku.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: animetaku
+label: 変更済
+description: タームが最後に編集された日時。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,21 @@
+uuid: acafe980-8a52-4d21-a456-09db50b239db
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_guanliantaku
+    - node.type.anime_current_
+id: node.anime_current_.field_guanliantaku
+field_name: field_guanliantaku
+entity_type: node
+bundle: anime_current_
+label: 関連タグ
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

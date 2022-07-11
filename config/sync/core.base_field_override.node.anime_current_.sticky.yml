@@ -1,0 +1,22 @@
+uuid: 17f9d7a6-4a34-4d42-96f9-405a47b55b70
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.sticky
+field_name: sticky
+entity_type: node
+bundle: anime_current_
+label: リスト上部に固定
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 180560bc-3a24-41b1-9a81-b5a9dc8547cf
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.created
+field_name: created
+entity_type: node
+bundle: anime_current_
+label: 'Authored on'
+description: ノードが作成された日時。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

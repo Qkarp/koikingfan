@@ -1,0 +1,20 @@
+uuid: 59d3f61e-ad8d-47f8-8a0c-23f4287266b9
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+  module:
+    - path
+id: taxonomy_term.animetaku.path
+field_name: path
+entity_type: taxonomy_term
+bundle: animetaku
+label: URLエイリアス
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

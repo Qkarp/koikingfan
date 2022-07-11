@@ -1,0 +1,20 @@
+uuid: 588b7480-b7db-4908-a70c-197a02d5f271
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_takusonomi
+field_name: field_takusonomi
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

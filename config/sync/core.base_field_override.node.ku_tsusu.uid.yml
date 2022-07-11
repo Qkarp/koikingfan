@@ -1,0 +1,20 @@
+uuid: 0b0da221-15ac-432f-b4da-4ffbf1798479
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.ku_tsusu
+id: node.ku_tsusu.uid
+field_name: uid
+entity_type: node
+bundle: ku_tsusu
+label: 投稿者
+description: コンテンツ投稿者のユーザー名。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

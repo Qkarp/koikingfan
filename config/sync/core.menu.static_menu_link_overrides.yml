@@ -14,3 +14,9 @@ definitions:
     weight: 0
     expanded: false
     enabled: false
+  search__view:
+    enabled: true
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0

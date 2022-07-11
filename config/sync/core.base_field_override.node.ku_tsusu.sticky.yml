@@ -1,0 +1,22 @@
+uuid: 69646753-177d-4c4c-a5a3-9e79e9aead78
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.ku_tsusu
+id: node.ku_tsusu.sticky
+field_name: sticky
+entity_type: node
+bundle: ku_tsusu
+label: リスト上部に固定
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

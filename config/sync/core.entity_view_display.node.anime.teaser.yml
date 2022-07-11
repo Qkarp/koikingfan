@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.anime.body
     - field.field.node.anime.field_anime_scene
+    - field.field.node.anime.field_animekomento
     - field.field.node.anime.field_fangyingri
     - field.field.node.anime.field_tag
     - node.type.anime
@@ -32,6 +33,7 @@ content:
     region: content
 hidden:
   field_anime_scene: true
+  field_animekomento: true
   field_fangyingri: true
   field_tag: true
   langcode: true

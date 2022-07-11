@@ -1,0 +1,22 @@
+uuid: b9efb5ba-7f52-42c5-b80b-eddc299ae30b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+id: taxonomy_term.animetaku.status
+field_name: status
+entity_type: taxonomy_term
+bundle: animetaku
+label: 掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

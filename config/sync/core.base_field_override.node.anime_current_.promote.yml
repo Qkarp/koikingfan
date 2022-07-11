@@ -1,0 +1,22 @@
+uuid: 420a634e-ee4f-47fd-84db-d6d7bb048447
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.promote
+field_name: promote
+entity_type: node
+bundle: anime_current_
+label: フロントページへ掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: 324cc153-790a-4b17-97b0-7f563671fb76
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anime_current_
+  module:
+    - text
+id: node.anime_current_.body
+field_name: body
+entity_type: node
+bundle: anime_current_
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

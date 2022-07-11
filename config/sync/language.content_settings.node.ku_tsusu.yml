@@ -1,0 +1,18 @@
+uuid: 3b7785e0-1bd3-4e08-842e-f6e5b8875164
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.ku_tsusu
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.ku_tsusu
+target_entity_type_id: node
+target_bundle: ku_tsusu
+default_langcode: current_interface
+language_alterable: true

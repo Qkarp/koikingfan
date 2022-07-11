@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Anime
+name: Anime(first)
 type: anime
-description: 'Here you can read about episodes where Magikarp appears.'
+description: アニメ無印版の紹介をする際に使用するコンテンツタイプです。
 help: ''
 new_revision: true
 preview_mode: 1

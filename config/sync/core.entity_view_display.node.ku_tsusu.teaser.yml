@@ -1,0 +1,35 @@
+uuid: 772db892-b56e-4aee-8605-3ce37b0f9723
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ku_tsusu.body
+    - field.field.node.ku_tsusu.field_goodskomento
+    - field.field.node.ku_tsusu.field_xiezhen
+    - node.type.ku_tsusu
+  module:
+    - text
+    - user
+id: node.ku_tsusu.teaser
+targetEntityType: node
+bundle: ku_tsusu
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_goodskomento: true
+  field_xiezhen: true
+  langcode: true

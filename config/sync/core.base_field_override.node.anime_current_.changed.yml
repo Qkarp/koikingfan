@@ -1,0 +1,18 @@
+uuid: bd4c3307-b6af-4e09-a85c-d099957f33c8
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.changed
+field_name: changed
+entity_type: node
+bundle: anime_current_
+label: 変更済
+description: ノードが最後に更新された日時。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

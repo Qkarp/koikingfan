@@ -10,9 +10,9 @@ dependencies:
     - node
     - user
 id: anime
-label: アニメ
+label: アニメ（無印版）
 module: views
-description: アニメの一覧を表示します。
+description: アニメ無印版の一覧を表示します。
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -176,22 +176,20 @@ display:
         options: {  }
       empty: {  }
       sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
+        field_fangyingri_value:
+          id: field_fangyingri_value
+          table: node__field_fangyingri
+          field: field_fangyingri_value
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          entity_field: created
-          plugin_id: date
+          plugin_id: datetime
           order: DESC
           expose:
-            label: ''
-            field_identifier: ''
-          exposed: false
-          granularity: second
+            label: 放映日
+            field_identifier: field_fangyingri_value
+          exposed: true
+          granularity: day
       arguments: {  }
       filters:
         status:
@@ -282,6 +280,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -298,6 +298,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags:

@@ -2,18 +2,15 @@ uuid: 23a2e5d2-01c6-4855-84c3-8307af5a762d
 langcode: ja
 status: true
 dependencies:
-  config:
-    - filter.format.restricted_html
   module:
     - comment
     - contact
-    - filter
     - search
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
-label: 匿名ユーザー
+label: 一般ユーザー
 weight: 0
 is_admin: false
 permissions:
@@ -21,4 +18,3 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'search content'
-  - 'use text format restricted_html'

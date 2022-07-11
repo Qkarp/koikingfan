@@ -1,0 +1,20 @@
+uuid: 22e13b8b-6491-4a11-b033-4cb67dbcf5f2
+langcode: ja
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_hoeics
+field_name: field_hoeics
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

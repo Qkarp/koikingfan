@@ -11,11 +11,11 @@ logo:
   path: 'public://ロゴ用_0.PNG'
   use_default: false
 all_icons_show: 1
-facebook_url: 'https://www.facebook.com/idewdot'
-twitter_url: 'https://twitter.com/dewdots'
+facebook_url: 'https://ja-jp.facebook.com/PokemonCoJp/'
+twitter_url: 'https://twitter.com/pokemon_cojp/'
 instagram_url: 'https://www.instagram.com/koinikoisuru_magikarp/'
 linkedin_url: ''
-youtube_url: 'https://www.youtube.com/user/Google'
+youtube_url: 'https://www.youtube.com/channel/UC_SI1j1d8vJo_rYMV5o_dRg'
 vk_url: ''
 whatsapp_url: ''
 github_url: ''
@@ -26,7 +26,7 @@ slider_image:
   - '6'
 slider_time: '5000'
 slider_dots: 'true'
-slider_code: "<li>\r\n\t<h1>最新情報</h1>\r\n\t<p>最新情報をお伝えします</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/en/update\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1>アニメ</h1>\r\n\t<p>アニメの放映リスト</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/en/anime\">詳しく見る</a>\r\n</li>"
+slider_code: "<li>\r\n\t<h1>ニュース</h1>\r\n\t<p>様々なニュースをお伝えします</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/news\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1>アニメ</h1>\r\n\t<p>アニメの放映リスト</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/anime\">詳しく見る</a>\r\n</li>"
 front_sidebar: 1
 google_font: local
 comment_user_pic: 0

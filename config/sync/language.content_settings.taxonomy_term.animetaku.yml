@@ -1,0 +1,18 @@
+uuid: 87e431c1-091e-42de-9b27-630bb613ecda
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.animetaku
+target_entity_type_id: taxonomy_term
+target_bundle: animetaku
+default_langcode: current_interface
+language_alterable: false

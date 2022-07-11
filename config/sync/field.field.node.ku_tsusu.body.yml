@@ -1,0 +1,23 @@
+uuid: ce715d81-9db4-49e2-b5ab-ca0f49a03f93
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ku_tsusu
+  module:
+    - text
+id: node.ku_tsusu.body
+field_name: body
+entity_type: node
+bundle: ku_tsusu
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

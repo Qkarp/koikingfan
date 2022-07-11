@@ -3,15 +3,22 @@ langcode: ja
 status: true
 dependencies:
   config:
+    - node.type.anime
+    - node.type.anime_current_
     - node.type.article
+    - node.type.news
     - node.type.page
+    - taxonomy.vocabulary.animetaku
     - taxonomy.vocabulary.tags
   module:
+    - block_content
     - comment
-    - contextual
+    - content_access
+    - content_translation
     - file
+    - language
+    - menu_link_content
     - node
-    - path
     - system
     - taxonomy
     - toolbar
@@ -19,30 +26,59 @@ dependencies:
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Content editor'
+label: 編集者
 weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
   - 'access content overview'
-  - 'access contextual links'
   - 'access files overview'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
   - 'access toolbar'
   - 'access tour'
-  - 'administer url aliases'
+  - 'administer languages'
+  - 'administer taxonomy'
+  - 'create anime content'
+  - 'create anime_current_ content'
   - 'create article content'
+  - 'create content translations'
+  - 'create news content'
   - 'create page content'
+  - 'create terms in animetaku'
   - 'create terms in tags'
-  - 'create url aliases'
-  - 'delete article revisions'
   - 'delete own article content'
   - 'delete own page content'
-  - 'delete page revisions'
+  - 'edit any anime content'
+  - 'edit any anime_current_ content'
+  - 'edit any article content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit own anime content'
+  - 'edit own anime_current_ content'
   - 'edit own article content'
   - 'edit own comments'
+  - 'edit own news content'
   - 'edit own page content'
+  - 'edit terms in animetaku'
   - 'edit terms in tags'
-  - 'revert all revisions'
+  - 'grant own content access'
+  - 'translate anime node'
+  - 'translate anime_current_ node'
+  - 'translate any entity'
+  - 'translate article node'
+  - 'translate block_content'
+  - 'translate editable entities'
+  - 'translate menu_link_content'
+  - 'translate news node'
+  - 'translate page node'
+  - 'translate tags taxonomy_term'
+  - 'update content translations'
   - 'view all revisions'
+  - 'view anime revisions'
+  - 'view anime_current_ revisions'
+  - 'view article revisions'
+  - 'view news revisions'
   - 'view own unpublished content'
+  - 'view page revisions'
   - 'view the administration theme'

@@ -1,0 +1,22 @@
+uuid: 597d3bc1-906a-4b76-87e4-8117f3dbd311
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.status
+field_name: status
+entity_type: node
+bundle: anime_current_
+label: 掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

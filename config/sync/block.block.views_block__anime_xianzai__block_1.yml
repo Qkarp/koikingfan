@@ -1,0 +1,29 @@
+uuid: 1e345a6f-b63b-4b55-86a8-22aeafec8164
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.anime_xianzai_
+  module:
+    - system
+    - views
+  theme:
+    - tara
+id: views_block__anime_xianzai__block_1
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:anime_xianzai_-block_1'
+settings:
+  id: 'views_block:anime_xianzai_-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /cs

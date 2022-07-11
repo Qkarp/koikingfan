@@ -1,0 +1,24 @@
+uuid: 3fe92870-f7dc-41bf-8844-860cb5df2a06
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hoeics
+    - node.type.anime_current_
+  module:
+    - datetime
+id: node.anime_current_.field_hoeics
+field_name: field_hoeics
+entity_type: node
+bundle: anime_current_
+label: 放映日
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

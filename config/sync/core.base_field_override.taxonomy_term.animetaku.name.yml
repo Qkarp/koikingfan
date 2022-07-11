@@ -1,0 +1,18 @@
+uuid: 56baf4c2-573e-4f75-8576-abf1318d5711
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.animetaku
+id: taxonomy_term.animetaku.name
+field_name: name
+entity_type: taxonomy_term
+bundle: animetaku
+label: 名前
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

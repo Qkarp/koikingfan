@@ -1,0 +1,20 @@
+uuid: 9befe62b-c869-42af-a6df-1ad58e49836c
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.anime_current_
+id: node.anime_current_.uid
+field_name: uid
+entity_type: node
+bundle: anime_current_
+label: 投稿者
+description: コンテンツ投稿者のユーザー名。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

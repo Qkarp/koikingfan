@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b5fd20442f3a54f3e8ecf6d4cf83ed11ed2eb41a',
+        'reference' => '8f06eeeedd522258ac5a6e3dd04aef896dafa3c4',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -192,6 +192,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/content_access' => array(
+            'pretty_version' => '1.0.0-alpha4',
+            'version' => '1.0.0.0-alpha4',
+            'reference' => '8.x-1.0-alpha4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/content_access',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/content_moderation' => array(
             'dev_requirement' => false,
@@ -427,6 +436,15 @@
                 0 => '9.4.2',
             ),
         ),
+        'drupal/entity' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => '8.x-1.3',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/entity',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/entity_reference' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -468,6 +486,24 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/google_analytics' => array(
+            'pretty_version' => '4.0.0',
+            'version' => '4.0.0.0',
+            'reference' => '4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/google_analytics',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/group' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'reference' => '8.x-1.4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/group',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/hal' => array(
             'dev_requirement' => false,
@@ -658,7 +694,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b5fd20442f3a54f3e8ecf6d4cf83ed11ed2eb41a',
+            'reference' => '8f06eeeedd522258ac5a6e3dd04aef896dafa3c4',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -798,6 +834,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/variationcache' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '8.x-1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/variationcache',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/views' => array(
             'dev_requirement' => false,

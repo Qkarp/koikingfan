@@ -1,0 +1,22 @@
+uuid: f1178327-9ad6-4ac8-b86d-63cf1cfa9022
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.ku_tsusu
+id: node.ku_tsusu.promote
+field_name: promote
+entity_type: node
+bundle: ku_tsusu
+label: フロントページへ掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean
