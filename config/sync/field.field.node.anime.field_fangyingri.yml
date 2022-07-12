@@ -1,4 +1,4 @@
-uuid: 13dd5b04-5f51-452d-8954-368df454d1d0
+uuid: 8f83d49d-15e6-4fa6-87b9-49f0592fd3f8
 langcode: ja
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: anime
 label: 放映日
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

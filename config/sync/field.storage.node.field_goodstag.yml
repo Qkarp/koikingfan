@@ -1,0 +1,20 @@
+uuid: cca73cfc-d151-491c-a0e3-ed05f6eda65e
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_goodstag
+field_name: field_goodstag
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

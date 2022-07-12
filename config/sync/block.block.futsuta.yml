@@ -1,0 +1,25 @@
+uuid: 713e181d-053a-46e7-a0f2-48483e64516c
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - tara
+id: futsuta
+theme: tara
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: フッター
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

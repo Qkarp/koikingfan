@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.ku_tsusu.body
     - field.field.node.ku_tsusu.field_goodskomento
+    - field.field.node.ku_tsusu.field_goodstag
     - field.field.node.ku_tsusu.field_xiezhen
     - image.style.thumbnail
     - node.type.ku_tsusu
@@ -39,6 +40,16 @@ content:
     weight: 130
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_goodstag:
+    type: entity_reference_autocomplete
+    weight: 131
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_xiezhen:
     type: image_image

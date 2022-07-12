@@ -1,0 +1,18 @@
+uuid: 38a13a4a-ae0f-4be3-b65f-d606ffdcd9c3
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.mbronly
+id: node.mbronly.created
+field_name: created
+entity_type: node
+bundle: mbronly
+label: 'Authored on'
+description: ノードが作成された日時。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

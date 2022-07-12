@@ -6,30 +6,32 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.ku_tsusu.body
     - field.field.node.ku_tsusu.field_goodskomento
+    - field.field.node.ku_tsusu.field_goodstag
     - field.field.node.ku_tsusu.field_xiezhen
+    - image.style.medium
     - node.type.ku_tsusu
   module:
-    - text
+    - image
     - user
 id: node.ku_tsusu.teaser
 targetEntityType: node
 bundle: ku_tsusu
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
+  field_xiezhen:
+    type: image
+    label: above
     settings:
-      trim_length: 600
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-    weight: 101
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  body: true
   field_goodskomento: true
-  field_xiezhen: true
+  field_goodstag: true
   langcode: true
+  links: true

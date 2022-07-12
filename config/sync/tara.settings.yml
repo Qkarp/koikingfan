@@ -8,7 +8,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://ロゴ用_0.PNG'
+  path: 'public://ロゴ_0.PNG'
   use_default: false
 all_icons_show: 1
 facebook_url: 'https://ja-jp.facebook.com/PokemonCoJp/'
@@ -23,10 +23,10 @@ telegram_url: ''
 vimeo_url: ''
 slider_show: 1
 slider_image:
-  - '6'
+  - '10'
 slider_time: '5000'
 slider_dots: 'true'
-slider_code: "<li>\r\n\t<h1>ニュース</h1>\r\n\t<p>様々なニュースをお伝えします</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/news\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1>アニメ</h1>\r\n\t<p>アニメの放映リスト</p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/anime\">詳しく見る</a>\r\n</li>"
+slider_code: "<li>\r\n\t<h1><span style=\"color:white\">ニュース</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">最新情報をお届けします</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/news\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1><span style=\"color:white\">アニメ</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">コイキングの登場回を紹介</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/cs\">詳しく見る</a>\r\n</li>"
 front_sidebar: 1
 google_font: local
 comment_user_pic: 0

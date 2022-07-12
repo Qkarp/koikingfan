@@ -1,0 +1,18 @@
+uuid: b465cbda-1665-4dd6-99eb-6b5476c08d65
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.mbronly
+id: node.mbronly.changed
+field_name: changed
+entity_type: node
+bundle: mbronly
+label: 変更済
+description: ノードが最後に更新された日時。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

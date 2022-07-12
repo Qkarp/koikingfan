@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
-name: 記事タグ
+name: ニュースタグ
 vid: tags
-description: 記事をトピックなどに合わせてグループ化するにはタグを使用してください
+description: ニュース記事用
 weight: 0

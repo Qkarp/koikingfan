@@ -1,0 +1,8 @@
+uuid: c6f8a460-2f04-45ad-b6c9-a30aee0124dd
+langcode: ja
+status: true
+dependencies: {  }
+name: グッズタグ
+vid: ku_tsusu
+description: グッズ用
+weight: 0

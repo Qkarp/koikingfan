@@ -1,0 +1,29 @@
+uuid: 1334d23c-b2b6-46ca-95d5-7ba0af156344
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.view_goods
+  module:
+    - system
+    - views
+  theme:
+    - tara
+id: views_block__view_goods_block_1
+theme: tara
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:view_goods-block_1'
+settings:
+  id: 'views_block:view_goods-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /goods

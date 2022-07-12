@@ -18,8 +18,8 @@ id: node.anime.field_anime_scene
 field_name: field_anime_scene
 entity_type: node
 bundle: anime
-label: image
-description: 著作権にご注意ください
+label: Photo
+description: ''
 required: false
 translatable: true
 default_value: {  }

@@ -18,8 +18,8 @@ id: node.ku_tsusu.field_xiezhen
 field_name: field_xiezhen
 entity_type: node
 bundle: ku_tsusu
-label: 写真
-description: ''
+label: 'Item image'
+description: 'Upload the actual goods photo'
 required: true
 translatable: true
 default_value: {  }

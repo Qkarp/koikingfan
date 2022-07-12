@@ -3,11 +3,11 @@ _core:
 langcode: ja
 definitions:
   contact__site_page:
+    enabled: false
     menu_name: footer
     parent: ''
-    weight: 0
     expanded: false
-    enabled: true
+    weight: 0
   standard__front_page:
     menu_name: main
     parent: ''
@@ -20,3 +20,9 @@ definitions:
     parent: ''
     expanded: false
     weight: 0
+  user__page:
+    enabled: false
+    menu_name: account
+    parent: ''
+    expanded: false
+    weight: -10

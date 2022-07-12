@@ -5,11 +5,12 @@ dependencies:
   config:
     - field.storage.node.field_guanliantaku
     - node.type.anime_current_
+    - taxonomy.vocabulary.animetaku
 id: node.anime_current_.field_guanliantaku
 field_name: field_guanliantaku
 entity_type: node
 bundle: anime_current_
-label: 関連タグ
+label: タグ
 description: ''
 required: false
 translatable: true
@@ -17,5 +18,12 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
-  handler_settings: {  }
+  handler_settings:
+    target_bundles:
+      animetaku: animetaku
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

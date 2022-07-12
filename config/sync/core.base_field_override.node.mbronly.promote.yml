@@ -1,0 +1,22 @@
+uuid: e4e8fdf6-b0c0-4dc0-b57d-6876e9125d4e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.mbronly
+id: node.mbronly.promote
+field_name: promote
+entity_type: node
+bundle: mbronly
+label: フロントページへ掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

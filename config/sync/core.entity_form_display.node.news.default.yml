@@ -7,9 +7,11 @@ dependencies:
     - field.field.node.news.field_komento
     - field.field.node.news.field_rinku
     - field.field.node.news.field_takusonomi
+    - field.field.node.news.field_tougao_
     - node.type.news
   module:
     - comment
+    - datetime
     - link
     - path
     - text
@@ -57,6 +59,12 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_tougao_:
+    type: datetime_default
+    weight: 125
+    region: content
+    settings: {  }
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -107,7 +115,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 0
     region: content
     settings:
       match_operator: CONTAINS

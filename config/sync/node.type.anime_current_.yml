@@ -9,10 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Anime(current)
+name: 'Anime (current series)'
 type: anime_current_
-description: 現在放送中のアニメに関する記事ページ用のコンテンツです。
+description: 現在放送中のアニメに関する記事用に使用
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

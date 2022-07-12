@@ -1,0 +1,29 @@
+uuid: 621bc172-cc01-4ad7-be2b-eb613166d8d4
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.mbronly.body
+    - node.type.mbronly
+  module:
+    - text
+    - user
+id: node.mbronly.default
+targetEntityType: node
+bundle: mbronly
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

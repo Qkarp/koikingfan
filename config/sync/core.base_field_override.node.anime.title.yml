@@ -8,7 +8,7 @@ id: node.anime.title
 field_name: title
 entity_type: node
 bundle: anime
-label: Anime
+label: タイトル
 description: ''
 required: true
 translatable: true

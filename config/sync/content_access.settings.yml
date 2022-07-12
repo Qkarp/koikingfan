@@ -7,4 +7,5 @@ content_access_roles_gids:
   administrator: 4
 content_access_node_type:
   anime: 'a:2:{s:8:"view_own";a:4:{i:0;s:9:"anonymous";i:1;s:13:"authenticated";i:2;s:14:"content_editor";i:3;s:13:"administrator";}s:4:"view";a:3:{i:0;s:13:"authenticated";i:1;s:14:"content_editor";i:2;s:13:"administrator";}}'
-  ku_tsusu: 'a:2:{s:8:"view_own";a:3:{i:0;s:9:"anonymous";i:1;s:13:"authenticated";i:2;s:13:"administrator";}s:4:"view";a:3:{i:0;s:13:"authenticated";i:1;s:14:"content_editor";i:2;s:13:"administrator";}}'
+  ku_tsusu: 'a:2:{s:8:"view_own";a:3:{i:0;s:9:"anonymous";i:1;s:13:"authenticated";i:2;s:13:"administrator";}s:4:"view";a:4:{i:0;s:9:"anonymous";i:1;s:13:"authenticated";i:2;s:14:"content_editor";i:3;s:13:"administrator";}}'
+  mbronly: 'a:2:{s:8:"view_own";a:3:{i:0;s:9:"anonymous";i:1;s:13:"authenticated";i:2;s:13:"administrator";}s:4:"view";a:2:{i:0;s:9:"anonymous";i:1;s:13:"administrator";}}'

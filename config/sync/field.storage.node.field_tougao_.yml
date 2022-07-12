@@ -1,0 +1,20 @@
+uuid: 198747f0-4349-4b1d-99c1-72bf60a952bf
+langcode: ja
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_tougao_
+field_name: field_tougao_
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

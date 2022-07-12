@@ -1,0 +1,32 @@
+uuid: 2cd1883c-2ee1-4363-b373-1dc0f57bb508
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - tara
+id: yusarokuin_2
+theme: tara
+region: sidebar_second
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ユーザーログイン
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/newsall\r\n/toppage\r\n<front>\r\n/fs"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

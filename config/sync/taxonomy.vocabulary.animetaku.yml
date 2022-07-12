@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: アニメタグ
 vid: animetaku
-description: ''
+description: アニメ用
 weight: 0

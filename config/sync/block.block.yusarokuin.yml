@@ -1,6 +1,6 @@
 uuid: 179bccbf-d9dd-447a-acb1-c1a8f3e9a5f7
 langcode: ja
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -22,4 +22,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/top\r\n<front>"
+    pages: /toppage

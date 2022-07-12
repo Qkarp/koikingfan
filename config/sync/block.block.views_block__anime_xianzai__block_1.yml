@@ -1,12 +1,9 @@
 uuid: 1e345a6f-b63b-4b55-86a8-22aeafec8164
 langcode: ja
-status: true
+status: false
 dependencies:
-  config:
-    - views.view.anime_xianzai_
   module:
     - system
-    - views
   theme:
     - tara
 id: views_block__anime_xianzai__block_1

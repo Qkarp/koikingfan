@@ -11,7 +11,7 @@ id: node.anime.field_animekomento
 field_name: field_animekomento
 entity_type: node
 bundle: anime
-label: アニメコメント
+label: コメント
 description: ''
 required: false
 translatable: false

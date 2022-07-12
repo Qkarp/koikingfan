@@ -11,7 +11,7 @@ bundle: animetaku
 label: 変更済
 description: タームが最後に編集された日時。
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

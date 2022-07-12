@@ -10,7 +10,7 @@ id: node.news.field_takusonomi
 field_name: field_takusonomi
 entity_type: node
 bundle: news
-label: タクソノミー
+label: タグ
 description: ''
 required: false
 translatable: true

@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: グッズ
 type: ku_tsusu
-description: 商品の紹介用に使用
+description: グッズの紹介に使用
 help: ''
 new_revision: true
 preview_mode: 1

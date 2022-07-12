@@ -8,10 +8,10 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Anime(first)
+name: 'Anime (first series)'
 type: anime
-description: アニメ無印版の紹介をする際に使用するコンテンツタイプです。
-help: ''
+description: アニメ無印版の紹介をする際に使用
+help: '例：第一話　ポケモンきみにきめた！'
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

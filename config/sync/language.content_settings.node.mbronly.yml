@@ -1,0 +1,18 @@
+uuid: 3b67d055-acc5-4ab5-b501-a8663740631e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.mbronly
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.mbronly
+target_entity_type_id: node
+target_bundle: mbronly
+default_langcode: current_interface
+language_alterable: true

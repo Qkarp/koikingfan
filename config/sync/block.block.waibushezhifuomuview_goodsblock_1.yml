@@ -1,0 +1,35 @@
+uuid: 200701c7-e14a-4e7c-b703-21c8a14497a3
+langcode: ja
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - tara
+id: waibushezhifuomuview_goodsblock_1
+theme: tara
+region: content_top
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:view_goods-block_1'
+settings:
+  id: 'views_exposed_filter_block:view_goods-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /goods
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator

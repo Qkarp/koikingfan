@@ -1,0 +1,22 @@
+uuid: b85b604e-1fdf-49c3-9156-d17427b8cbbc
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.mbronly
+id: node.mbronly.sticky
+field_name: sticky
+entity_type: node
+bundle: mbronly
+label: リスト上部に固定
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

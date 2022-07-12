@@ -18,7 +18,7 @@ id: node.anime_current_.field_huaxiang
 field_name: field_huaxiang
 entity_type: node
 bundle: anime_current_
-label: 画像
+label: Image
 description: ''
 required: false
 translatable: true
@@ -37,7 +37,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

@@ -12,7 +12,7 @@ field_name: field_rinku
 entity_type: node
 bundle: news
 label: リンク
-description: ''
+description: 公式ページがある場合のみ記載
 required: false
 translatable: true
 default_value: {  }

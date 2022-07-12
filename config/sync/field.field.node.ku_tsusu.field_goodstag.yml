@@ -1,0 +1,29 @@
+uuid: 1fd04bdb-a006-4797-aed4-c0c28c4cd5ec
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_goodstag
+    - node.type.ku_tsusu
+    - taxonomy.vocabulary.ku_tsusu
+id: node.ku_tsusu.field_goodstag
+field_name: field_goodstag
+entity_type: node
+bundle: ku_tsusu
+label: タグ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ku_tsusu: ku_tsusu
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
