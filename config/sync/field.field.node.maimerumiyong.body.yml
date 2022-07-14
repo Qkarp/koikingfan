@@ -1,0 +1,23 @@
+uuid: d4d132a7-f2ab-4e83-9418-c9f7e18e2b9e
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.maimerumiyong
+  module:
+    - text
+id: node.maimerumiyong.body
+field_name: body
+entity_type: node
+bundle: maimerumiyong
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

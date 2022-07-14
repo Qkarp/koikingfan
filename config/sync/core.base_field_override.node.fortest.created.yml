@@ -1,0 +1,18 @@
+uuid: 1f74c119-8a38-4b82-b3bf-d97cb38ae92b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fortest
+id: node.fortest.created
+field_name: created
+entity_type: node
+bundle: fortest
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

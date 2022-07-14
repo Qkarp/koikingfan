@@ -1,0 +1,31 @@
+uuid: 3a8648ab-5c43-4ed7-a7b7-fea2567a0bf3
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.maimerumiyong.body
+    - node.type.maimerumiyong
+  module:
+    - text
+    - user
+id: node.maimerumiyong.teaser
+targetEntityType: node
+bundle: maimerumiyong
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

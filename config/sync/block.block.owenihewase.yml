@@ -1,0 +1,25 @@
+uuid: 4ed8ebc2-795a-40f3-a72a-3415ad120c96
+langcode: ja
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6f388c25-29b1-4a2a-bdd8-c385e02dfda0'
+  module:
+    - block_content
+  theme:
+    - tara
+id: owenihewase
+theme: tara
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:6f388c25-29b1-4a2a-bdd8-c385e02dfda0'
+settings:
+  id: 'block_content:6f388c25-29b1-4a2a-bdd8-c385e02dfda0'
+  label: お問い合わせ
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

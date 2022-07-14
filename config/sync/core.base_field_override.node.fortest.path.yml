@@ -1,0 +1,20 @@
+uuid: 5432e40d-5a7b-42e0-b9d6-87b3132b36a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fortest
+  module:
+    - path
+id: node.fortest.path
+field_name: path
+entity_type: node
+bundle: fortest
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

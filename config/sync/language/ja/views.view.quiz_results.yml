@@ -1,0 +1,102 @@
+label: クイズの結果
+display:
+  default:
+    display_title: マスター
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 適用
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
+      pager:
+        options:
+          expose:
+            items_per_page_label: ページ毎の件数
+            items_per_page_options_all_label: '- 全て -'
+            offset_label: オフセット
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        name:
+          label: ユーザー名
+          separator: ', '
+        time_start:
+          separator: ', '
+        time_end:
+          separator: ', '
+        score:
+          label: 得点
+          separator: ', '
+        is_evaluated:
+          label: 評価済
+          separator: ', '
+        edit_quiz_result:
+          label: 編集
+          text: 得点
+        view_quiz_result:
+          text: ビュー
+        delete_quiz_result:
+          label: 削除
+          text: 削除
+        dropbutton:
+          label: 操作
+      title: クイズの結果
+      arguments:
+        qid:
+          exception:
+            title: すべて
+  list:
+    display_title: クイズの結果
+    display_options:
+      menu:
+        title: 結果
+  page_1:
+    display_options:
+      menu:
+        title: クイズの結果
+      fields:
+        title:
+          label: タイトル
+          separator: ', '
+        name:
+          label: 名前
+          separator: ', '
+        time_start:
+          separator: ', '
+        time_end:
+          separator: ', '
+        score:
+          label: 得点
+          separator: ', '
+        is_evaluated:
+          label: 評価済
+          separator: ', '
+  quiz_data_export:
+    display_options:
+      fields:
+        name:
+          label: ユーザー名
+          separator: ', '
+        time_start:
+          separator: ', '
+        time_end:
+          separator: ', '
+        score:
+          label: 得点
+          separator: ', '
+        is_evaluated:
+          label: 評価済
+          separator: ', '
+        edit_quiz_result:
+          label: 編集
+          text: 得点
+        view_quiz_result:
+          text: ビュー
+        delete_quiz_result:
+          label: 削除
+          text: 削除
+        dropbutton:
+          label: 操作

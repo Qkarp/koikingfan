@@ -6,6 +6,8 @@ dependencies:
     - comment
     - contact
     - google_analytics
+    - media
+    - quiz
     - search
     - system
 _core:
@@ -17,8 +19,12 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access quiz'
   - 'access site-wide contact form'
   - 'opt-in or out of google analytics tracking'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'view any quiz'
+  - 'view media'
+  - 'view own quiz_result'

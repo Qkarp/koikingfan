@@ -1,0 +1,45 @@
+uuid: afe1818b-b03b-4bc1-8659-0a97685fa83e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_result_answer.truefalse.truefalse_answer
+    - quiz.result.answer.type.truefalse
+id: quiz_result_answer.truefalse.default
+targetEntityType: quiz_result_answer
+bundle: truefalse
+mode: default
+content:
+  question_feedback:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  quiz_feedback:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  quiz_question_view_full:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  quiz_question_view_question:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  table:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  answer_feedback: true
+  attempt: true
+  choice: true
+  correct: true
+  score: true
+  solution: true
+  truefalse_answer: true

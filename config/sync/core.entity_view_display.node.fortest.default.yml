@@ -1,0 +1,29 @@
+uuid: daa27f3a-c690-4cc0-b211-bb9a90f958fc
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.fortest.body
+    - node.type.fortest
+  module:
+    - text
+    - user
+id: node.fortest.default
+targetEntityType: node
+bundle: fortest
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

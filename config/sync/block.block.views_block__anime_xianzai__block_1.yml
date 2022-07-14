@@ -9,7 +9,7 @@ dependencies:
 id: views_block__anime_xianzai__block_1
 theme: tara
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:anime_xianzai_-block_1'
 settings:

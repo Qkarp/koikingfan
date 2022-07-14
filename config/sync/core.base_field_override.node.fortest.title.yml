@@ -1,0 +1,18 @@
+uuid: 3589c675-2b66-43fb-a580-ef1f20bb3e88
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fortest
+id: node.fortest.title
+field_name: title
+entity_type: node
+bundle: fortest
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

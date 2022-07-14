@@ -1,0 +1,22 @@
+uuid: b9ffd10f-6088-4493-810c-d47bfcf59e75
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.fortest
+id: node.fortest.promote
+field_name: promote
+entity_type: node
+bundle: fortest
+label: フロントページへ掲載
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: オン
+  off_label: オフ
+field_type: boolean

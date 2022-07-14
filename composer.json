@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.4",
         "drupal/google_analytics": "^4.0",
         "drupal/group": "^1.4",
+        "drupal/quiz": "^6.0@alpha",
         "drupal/tara": "^8.3"
     },
     "conflict": {

@@ -1,0 +1,30 @@
+uuid: bd1686dd-9dde-48fb-a393-ccab78e8ae34
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ed7cb93d-731f-41e2-be9d-8bb7c67fcdf8'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: ilovekoikinku
+theme: tara
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:ed7cb93d-731f-41e2-be9d-8bb7c67fcdf8'
+settings:
+  id: 'block_content:ed7cb93d-731f-41e2-be9d-8bb7c67fcdf8'
+  label: 'I love コイキング'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /links

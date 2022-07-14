@@ -1,0 +1,23 @@
+uuid: f4a1cb0d-837d-4806-8431-11c56a8e31a4
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fortest
+  module:
+    - text
+id: node.fortest.body
+field_name: body
+entity_type: node
+bundle: fortest
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

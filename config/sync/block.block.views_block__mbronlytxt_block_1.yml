@@ -12,7 +12,7 @@ dependencies:
 id: views_block__mbronlytxt_block_1
 theme: tara
 region: content
-weight: -1
+weight: -4
 provider: null
 plugin: 'views_block:mbronlytxt-block_1'
 settings:

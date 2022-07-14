@@ -1,0 +1,36 @@
+uuid: 77bd9551-00f0-455b-8346-7790e7225fbe
+langcode: ja
+status: true
+dependencies:
+  module:
+    - statistics
+    - system
+    - user
+  theme:
+    - tara
+id: renqinoarukontentsu
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: statistics_popular_block
+settings:
+  id: statistics_popular_block
+  label: 人気のあるコンテンツ（管理者用）
+  label_display: visible
+  provider: statistics
+  top_day_num: 5
+  top_all_num: 5
+  top_last_num: 5
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+  request_path:
+    id: request_path
+    negate: false
+    pages: /links

@@ -1,0 +1,30 @@
+uuid: 1395f0f8-3abe-434f-bb71-8a9a563aa700
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b899d9d8-6436-4361-b216-645ce4ce69df'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: animedonghuamaimerumi
+theme: tara
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:b899d9d8-6436-4361-b216-645ce4ce69df'
+settings:
+  id: 'block_content:b899d9d8-6436-4361-b216-645ce4ce69df'
+  label: アニメ動画埋め込み
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /anime

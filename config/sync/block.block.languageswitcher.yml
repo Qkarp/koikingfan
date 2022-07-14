@@ -8,8 +8,8 @@ dependencies:
     - tara
 id: languageswitcher
 theme: tara
-region: footer_second
-weight: -6
+region: footer_first
+weight: -14
 provider: null
 plugin: 'language_block:language_interface'
 settings:

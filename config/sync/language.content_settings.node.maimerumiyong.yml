@@ -1,0 +1,18 @@
+uuid: 52c12548-967f-4e40-a12f-b46c2b439db7
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.maimerumiyong
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.maimerumiyong
+target_entity_type_id: node
+target_bundle: maimerumiyong
+default_langcode: current_interface
+language_alterable: false
