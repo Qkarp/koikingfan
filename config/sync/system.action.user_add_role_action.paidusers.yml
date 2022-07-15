@@ -1,0 +1,14 @@
+uuid: eb050f7e-8e24-42f4-b6d4-5084b87350ed
+langcode: ja
+status: true
+dependencies:
+  config:
+    - user.role.paidusers
+  module:
+    - user
+id: user_add_role_action.paidusers
+label: 選択したユーザーに有料会員ユーザーの役割を追加
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: paidusers

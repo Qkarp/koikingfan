@@ -12,7 +12,7 @@ dependencies:
 id: views_block__anime_block_1_2
 theme: tara
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: 'views_block:anime-block_1'
 settings:

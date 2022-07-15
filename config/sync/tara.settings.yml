@@ -26,7 +26,7 @@ slider_image:
   - '10'
 slider_time: '5000'
 slider_dots: 'true'
-slider_code: "<li>\r\n\t<h1><span style=\"color:white\">ニュース</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">最新情報をお届けします</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/news\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1><span style=\"color:white\">アニメ</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">コイキングの登場回を紹介</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/cs\">詳しく見る</a>\r\n</li>"
+slider_code: "<li>\r\n\t<h1><span style=\"color:white\">ニュース</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">最新情報をお届けします</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/news\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1><span style=\"color:white\">アニメ</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">コイキングの登場回を紹介</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/cs\">詳しく見る</a>\r\n</li>\r\n<li>\r\n\t<h1><span style=\"color:white\">グッズ</span></h1>\r\n\t<p style=\"background-color:#FFFFE0\"><span style=\"color:#692927\">たくさんのグッズを紹介します</span></p>\r\n\t<br />\r\n\t<a class=\"button\" href=\"http://localhost/project/recommended-project/web/ja/goods\">詳しく見る</a>\r\n</li>"
 front_sidebar: 1
 google_font: local
 comment_user_pic: 0

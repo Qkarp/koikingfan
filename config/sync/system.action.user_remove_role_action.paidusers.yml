@@ -1,0 +1,14 @@
+uuid: bbe8d85c-eb01-4a47-9c19-50e571d9a8bd
+langcode: ja
+status: true
+dependencies:
+  config:
+    - user.role.paidusers
+  module:
+    - user
+id: user_remove_role_action.paidusers
+label: '選択したユーザーから 有料会員ユーザー の役割を削除'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: paidusers

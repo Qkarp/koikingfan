@@ -20,7 +20,7 @@ mode: teaser
 content:
   field_xiezhen:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: content
       image_style: medium

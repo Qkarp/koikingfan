@@ -1,0 +1,41 @@
+uuid: 7a49906e-4177-425e-9c79-ae119e665940
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:54c77c57-c6a6-4816-9686-c3ca474877f9'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - tara
+id: youliaohuiyuanxiandingkutsusushaojiekona
+theme: tara
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:54c77c57-c6a6-4816-9686-c3ca474877f9'
+settings:
+  id: 'block_content:54c77c57-c6a6-4816-9686-c3ca474877f9'
+  label: 有料会員グッズ紹介本文
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /mbrgoods
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      paidusers: paidusers
+      content_editor: content_editor
+      administrator: administrator

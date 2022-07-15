@@ -1,1 +1,32 @@
 label: Goods
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Show
+          reset_button_label: Reset
+          exposed_sorts_label: Sorts
+          sort_asc_label: Ascending
+          sort_desc_label: Descending
+      sorts:
+        created:
+          expose:
+            label: 'Posted on'
+        last_comment_timestamp:
+          expose:
+            label: 'Commented on'
+        random:
+          expose:
+            label: Random
+      filters:
+        keys:
+          expose:
+            label: Search
+      fields:
+        title:
+          label: Products
+        field_xiezhen:
+          label: Photo
+        field_goodstag:
+          label: Tag

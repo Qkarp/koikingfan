@@ -1,17 +1,17 @@
-uuid: bd1164e8-23a6-40d2-986c-1461bdf2619b
-langcode: en
+uuid: db85effc-8436-456b-a289-efde66079c51
+langcode: ja
 status: true
 dependencies:
   config:
-    - node.type.maimerumiyong
-id: node.maimerumiyong.title
+    - node.type.paidonlygoods
+id: node.paidonlygoods.title
 field_name: title
 entity_type: node
-bundle: maimerumiyong
-label: Title
+bundle: paidonlygoods
+label: グッズ名
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

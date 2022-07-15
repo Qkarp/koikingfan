@@ -15,7 +15,7 @@ definitions:
     expanded: false
     enabled: false
   search__view:
-    enabled: true
+    enabled: false
     menu_name: tools
     parent: ''
     expanded: false

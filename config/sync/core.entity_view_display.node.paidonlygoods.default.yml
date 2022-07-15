@@ -1,23 +1,21 @@
-uuid: 6bbab733-b157-4d12-9cbf-58c9889ca8ce
+uuid: b794e522-f594-4d3f-b941-fe8a3c74a34b
 langcode: ja
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
-    - field.field.node.ku_tsusu.body
-    - field.field.node.ku_tsusu.field_goodskomento
-    - field.field.node.ku_tsusu.field_goodstag
-    - field.field.node.ku_tsusu.field_xiezhen
-    - image.style.large
-    - node.type.ku_tsusu
+    - field.field.node.paidonlygoods.body
+    - field.field.node.paidonlygoods.field_aitemuxiezhen
+    - field.field.node.paidonlygoods.field_comment
+    - field.field.node.paidonlygoods.field_taku
+    - node.type.paidonlygoods
   module:
     - comment
     - image
     - text
     - user
-id: node.ku_tsusu.default
+id: node.paidonlygoods.default
 targetEntityType: node
-bundle: ku_tsusu
+bundle: paidonlygoods
 mode: default
 content:
   body:
@@ -27,31 +25,31 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_goodskomento:
+  field_aitemuxiezhen:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_comment:
     type: comment_default
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 105
+    weight: 104
     region: content
-  field_goodstag:
+  field_taku:
     type: entity_reference_label
     label: hidden
     settings:
       link: true
-    third_party_settings: {  }
-    weight: 104
-    region: content
-  field_xiezhen:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: large
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: 103
     region: content

@@ -1,29 +1,29 @@
-uuid: 1fd04bdb-a006-4797-aed4-c0c28c4cd5ec
+uuid: 119d662b-e5b2-4295-acc5-0375d24a14f1
 langcode: ja
 status: true
 dependencies:
   config:
-    - field.storage.node.field_goodstag
-    - node.type.ku_tsusu
-    - taxonomy.vocabulary.ku_tsusu
-id: node.ku_tsusu.field_goodstag
-field_name: field_goodstag
+    - field.storage.node.field_taku
+    - node.type.paidonlygoods
+    - taxonomy.vocabulary.paidmbrgoods
+id: node.paidonlygoods.field_taku
+field_name: field_taku
 entity_type: node
-bundle: ku_tsusu
+bundle: paidonlygoods
 label: タグ
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      ku_tsusu: ku_tsusu
+      paidmbrgoods: paidmbrgoods
     sort:
       field: name
       direction: asc
-    auto_create: true
+    auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

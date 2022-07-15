@@ -1,0 +1,16 @@
+uuid: 49cc417c-424b-4239-a66e-8962d9dc67b7
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.paidmbrgoods
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.paidmbrgoods
+target_entity_type_id: taxonomy_term
+target_bundle: paidmbrgoods
+default_langcode: current_interface
+language_alterable: false

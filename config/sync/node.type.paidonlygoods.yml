@@ -1,0 +1,17 @@
+uuid: 95965c3b-6413-4bd2-bc68-186a95b38bef
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: あなたのコイキンググッズ
+type: paidonlygoods
+description: 有料会員様にグッズ紹介を作成してもらう際に使用
+help: "必ず写真の追加をお願いします。\r\n記載内容は自由ですが、販売時期や入手経路、感想など書いていただけると嬉しいです！\r\n※一度保存した投稿は編集不可となりますのでご注意ください"
+new_revision: false
+preview_mode: 1
+display_submitted: true

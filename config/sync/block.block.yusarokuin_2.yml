@@ -22,7 +22,7 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/newsall\r\n/toppage\r\n<front>\r\n/fs"
+    pages: "/newsall\r\n/toppage\r\n<front>\r\n/fs\r\n/mbrgoods"
   user_role:
     id: user_role
     negate: false

@@ -6,13 +6,14 @@ dependencies:
     - views.view.mbronlytxt
   module:
     - system
+    - user
     - views
   theme:
     - tara
 id: views_block__mbronlytxt_block_1
 theme: tara
 region: content
-weight: -4
+weight: -5
 provider: null
 plugin: 'views_block:mbronlytxt-block_1'
 settings:
@@ -26,4 +27,11 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/newsall\r\n/fs"
+    pages: "/newsall\r\n/fs\r\n/mbrgoods"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

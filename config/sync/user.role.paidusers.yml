@@ -1,0 +1,14 @@
+uuid: b504c2e9-e90d-42f1-9678-50cc5ee6281c
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.paidonlygoods
+  module:
+    - node
+id: paidusers
+label: 有料会員ユーザー
+weight: 2
+is_admin: null
+permissions:
+  - 'create paidonlygoods content'

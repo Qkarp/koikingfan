@@ -1,13 +1,8 @@
-label: Anime(first)
-description: 'Show all episodes of anime'
+label: 'Anime (current)'
 display:
   default:
     display_options:
-      title: Anime
-      sorts:
-        field_fangyingri_value:
-          expose:
-            label: Airdate
+      title: 'Anime (current)'
       exposed_form:
         options:
           submit_button: Apply
@@ -15,3 +10,7 @@ display:
           exposed_sorts_label: 'Sort by'
           sort_asc_label: Ascending
           sort_desc_label: Descending
+      sorts:
+        field_hoeics_value:
+          expose:
+            label: Airdate

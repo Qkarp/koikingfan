@@ -1,17 +1,20 @@
-uuid: 3a8648ab-5c43-4ed7-a7b7-fea2567a0bf3
+uuid: d29ea92b-5c2b-4cac-a50d-41bc4eede9e1
 langcode: ja
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.maimerumiyong.body
-    - node.type.maimerumiyong
+    - field.field.node.paidonlygoods.body
+    - field.field.node.paidonlygoods.field_aitemuxiezhen
+    - field.field.node.paidonlygoods.field_comment
+    - field.field.node.paidonlygoods.field_taku
+    - node.type.paidonlygoods
   module:
     - text
     - user
-id: node.maimerumiyong.teaser
+id: node.paidonlygoods.teaser
 targetEntityType: node
-bundle: maimerumiyong
+bundle: paidonlygoods
 mode: teaser
 content:
   body:
@@ -25,7 +28,10 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 103
     region: content
 hidden:
+  field_aitemuxiezhen: true
+  field_comment: true
+  field_taku: true
   langcode: true

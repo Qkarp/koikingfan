@@ -272,7 +272,7 @@ display:
             label: 投稿日
             field_identifier: created
           exposed: true
-          granularity: minute
+          granularity: second
         last_comment_timestamp:
           id: last_comment_timestamp
           table: comment_entity_statistics

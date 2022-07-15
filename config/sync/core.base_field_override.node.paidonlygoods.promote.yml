@@ -1,17 +1,17 @@
-uuid: 72949d74-ab15-4bcd-9a64-c1a44ef76be4
+uuid: f69be29b-0cd4-4bfb-a5d6-32d678766305
 langcode: ja
 status: true
 dependencies:
   config:
-    - node.type.maimerumiyong
-id: node.maimerumiyong.promote
+    - node.type.paidonlygoods
+id: node.paidonlygoods.promote
 field_name: promote
 entity_type: node
-bundle: maimerumiyong
+bundle: paidonlygoods
 label: フロントページへ掲載
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 0

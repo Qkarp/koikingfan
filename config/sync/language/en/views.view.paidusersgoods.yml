@@ -1,0 +1,20 @@
+label: 'Paid members goods'
+display:
+  default:
+    display_options:
+      title: 'Paid members goods'
+      fields:
+        title:
+          label: Title
+        created:
+          label: 'Posted on'
+        uid:
+          label: 'Posted by'
+        field_aitemuxiezhen:
+          label: Photo
+      exposed_form:
+        options:
+          submit_button: Apply
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Ascending
+          sort_desc_label: Descending

@@ -1,0 +1,33 @@
+uuid: 2e98c3a3-22b5-4d1f-97d8-dfeed588a440
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comment
+    - node.type.paidonlygoods
+  module:
+    - comment
+id: node.paidonlygoods.field_comment
+field_name: field_comment
+entity_type: node
+bundle: paidonlygoods
+label: コメント
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

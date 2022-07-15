@@ -6,9 +6,14 @@ dependencies:
     - node.type.anime
     - node.type.anime_current_
     - node.type.article
+    - node.type.fortest
+    - node.type.ku_tsusu
+    - node.type.mbronly
     - node.type.news
     - node.type.page
+    - node.type.paidonlygoods
     - taxonomy.vocabulary.animetaku
+    - taxonomy.vocabulary.ku_tsusu
     - taxonomy.vocabulary.tags
   module:
     - block_content
@@ -19,6 +24,7 @@ dependencies:
     - language
     - menu_link_content
     - node
+    - paragraphs
     - system
     - taxonomy
     - toolbar
@@ -27,7 +33,7 @@ _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
 label: 編集者
-weight: 2
+weight: 3
 is_admin: false
 permissions:
   - 'access administration pages'
@@ -43,12 +49,22 @@ permissions:
   - 'create anime_current_ content'
   - 'create article content'
   - 'create content translations'
+  - 'create fortest content'
+  - 'create ku_tsusu content'
+  - 'create mbronly content'
   - 'create news content'
   - 'create page content'
+  - 'create paidonlygoods content'
   - 'create terms in animetaku'
+  - 'create terms in ku_tsusu'
   - 'create terms in tags'
+  - 'delete any fortest content'
+  - 'delete any paidonlygoods content'
   - 'delete own article content'
   - 'delete own page content'
+  - 'delete terms in animetaku'
+  - 'delete terms in ku_tsusu'
+  - 'delete terms in tags'
   - 'edit any anime content'
   - 'edit any anime_current_ content'
   - 'edit any article content'
@@ -58,27 +74,42 @@ permissions:
   - 'edit own anime_current_ content'
   - 'edit own article content'
   - 'edit own comments'
+  - 'edit own fortest content'
+  - 'edit own ku_tsusu content'
+  - 'edit own mbronly content'
   - 'edit own news content'
   - 'edit own page content'
+  - 'edit own paidonlygoods content'
   - 'edit terms in animetaku'
+  - 'edit terms in ku_tsusu'
   - 'edit terms in tags'
   - 'grant own content access'
   - 'translate anime node'
   - 'translate anime_current_ node'
+  - 'translate animetaku taxonomy_term'
   - 'translate any entity'
   - 'translate article node'
   - 'translate block_content'
   - 'translate editable entities'
+  - 'translate ku_tsusu node'
+  - 'translate ku_tsusu taxonomy_term'
+  - 'translate mbronly node'
   - 'translate menu_link_content'
   - 'translate news node'
   - 'translate page node'
+  - 'translate paidonlygoods node'
+  - 'translate paragraph'
   - 'translate tags taxonomy_term'
   - 'update content translations'
   - 'view all revisions'
   - 'view anime revisions'
   - 'view anime_current_ revisions'
   - 'view article revisions'
+  - 'view fortest revisions'
+  - 'view ku_tsusu revisions'
+  - 'view mbronly revisions'
   - 'view news revisions'
   - 'view own unpublished content'
   - 'view page revisions'
+  - 'view paidonlygoods revisions'
   - 'view the administration theme'
