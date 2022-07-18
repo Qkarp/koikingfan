@@ -13,7 +13,7 @@ dependencies:
 id: paidusersgoods
 label: 有料会員限定グッズ紹介
 module: views
-description: ''
+description: 有料会員にて投稿したグッズ一覧を表示
 tag: ''
 base_table: node_field_data
 base_field: nid

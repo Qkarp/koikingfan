@@ -2,7 +2,7 @@ uuid: 68d62ed8-23ed-451b-9484-6fb92ff3133b
 langcode: ja
 status: true
 dependencies: {  }
-name: 有料会員グッズ向け
+name: 有料会員様グッズ向け
 vid: paidmbrgoods
-description: ''
+description: 有料会員様のグッズ紹介用
 weight: 0

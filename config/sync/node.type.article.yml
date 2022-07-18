@@ -1,12 +1,19 @@
 uuid: 20f6b98b-46c9-4672-bfa6-a7b73afbeb50
 langcode: ja
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: 記事
 type: article
-description: ニュースやプレスリリース、ブログのような時系列が重要なコンテンツには<em>記事</em>を使ってください。
+description: ※不使用※ニュースやプレスリリース、ブログのような時系列が重要なコンテンツには<em>記事</em>を使ってください。
 help: ''
 new_revision: true
 preview_mode: 1
